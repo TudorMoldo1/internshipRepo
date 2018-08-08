@@ -20,8 +20,8 @@ public class EditAddressTest extends BaseTest {
     private String firstName, lastName, postalCode, telephone, street, country, region, city;
 
     @Test
-    @Title("Test08_Address")
-    public void test08_Address()
+    @Title("Test08_ChangeAddress")
+    public void test08_ChangeAddress()
     {
         editAddressSteps.changeAddress(firstName,lastName,telephone,street,city,postalCode,region,country,"tudor.moldovanu@evozon.com","1234567");
     }

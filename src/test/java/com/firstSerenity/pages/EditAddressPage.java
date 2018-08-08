@@ -27,12 +27,6 @@ public class EditAddressPage extends PageObject {
     @FindBy(css = "#city")
     private WebElementFacade cityField;
 
-    //@FindBy(css="#region_id")
-    //private Select regionDropdown;
-
-    //@FindBy(css="#country")
-    //private Select countryDropdown;
-
     @FindBy(css="button[title*=\"Save Address\"]")
     private WebElementFacade saveButton;
 

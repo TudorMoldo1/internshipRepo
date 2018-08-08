@@ -12,7 +12,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 @RunWith(SerenityParameterizedRunner.class)
-@UseTestDataFrom(value= "C:\\Users\\tudormoldovanu\\IdeaProjects\\firstSerenity\\src\\test\\java\\com\\firstSerenity\\Test04_Search.csv",separator=Constants.CSV_SEPARATOR)
+@UseTestDataFrom(value= Constants.CSV_PATH+"Test04_Search.csv",separator=Constants.CSV_SEPARATOR)
 public class SearchTest extends BaseTest {
 
 

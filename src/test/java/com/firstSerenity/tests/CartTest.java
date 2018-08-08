@@ -33,7 +33,7 @@ public class CartTest extends BaseTest {
     }
 
     @Test
-    public void testEmptyCart()
+    public void testDeleteFromCart()
     {
         cartSteps.login();
         cartSteps.addToCart("Park Row Throw".toUpperCase());

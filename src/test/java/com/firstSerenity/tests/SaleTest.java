@@ -20,7 +20,7 @@ public class SaleTest extends BaseTest {
     }
 
     @Test
-    public void testCheckproductDoesNotExist()
+    public void testCheckProductDoesNotExist()
     {
         saleSteps.login("tudor.moldovanu@evozon.com","1234567");
         saleSteps.verifyProductExists("ecfnjwcw");
