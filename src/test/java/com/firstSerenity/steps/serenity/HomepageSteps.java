@@ -18,6 +18,12 @@ public class HomepageSteps extends ScenarioSteps {
     }
 
     @Step
+    public void openPage()
+    {
+        homePage.open();
+    }
+
+    @Step
     public WebElementFacade getSubcategory(WebElementFacade category,String subcategory)
     {
         return homePage.getSubcategory(category,subcategory);
