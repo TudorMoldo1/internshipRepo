@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and JUnit</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="93eb6ead3f51326f7bd968e5f9934fe71dd748470b16ee5854ffa0fcb9cb041c.html">Edit Address Test</a></span>
+                > <span class="truncate-60"><a
+                    href="59ac97cecbbdf4aaeb0a50e3d5f491a56262ac4569ecb9be2adb9fc7cc384f01.html">Test08_Address </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-08-2018 17:14</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Edit Address Test</span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Test08_Address
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Change address: &lt;firstName&gt;, &lt;lastName&gt;, , &lt;street&gt;, &lt;city&gt;, &lt;postalCode&gt;, &lt;region&gt;, &lt;country&gt;, &lt;firstName&gt;.moldovanu@evozon.com, 1234567</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="751e06de0a3eb1113d59c58d776b52252e5e5ce2db98825ff4fb5d191dc0cec4.png" title="Change address: tudor, moldo, , garii, bacau, 600000, Cluj, Romania, tudor.moldovanu@evozon.com, 1234567" width="960"/>
+                <img src="1a898c23a5b99dfaaa434368d75c1ea5a4d1def78dbb2a6489cdeff196fd7ff1.png" title="Change address: tudor, moldo, , garii, bacau, 600000, Cluj, Romania, tudor.moldovanu@evozon.com, 1234567" width="960"/>
+                <img src="751e06de0a3eb1113d59c58d776b52252e5e5ce2db98825ff4fb5d191dc0cec4.png" title="Open page" width="960"/>
+                <img src="930f0229b868a980e8df6e83c0b562caf315ef2e24b7ee1c7f4a0789cabae25b.png" title="Open page" width="960"/>
+                <img src="955753266e5bc1064d6658a03603306d50a94847b8d71e8635895fff9e3824f3.png" title="Set credentials: tudor.moldovanu@evozon.com, 1234567" width="960"/>
+                <img src="bf426ea3e8dfdd6836a272f02822498abd4a32427480fbb5a3a15976d117ebde.png" title="Set credentials: tudor.moldovanu@evozon.com, 1234567" width="960"/>
+                <img src="945f65bd612e20d44b1e973eea8a8cc3c16fa1343d6bcda217f26d06f2008a78.png" title="Click login" width="960"/>
+                <img src="735126f60ddcbb857fb49863160dabd3070c7d011e0f57f428263de64738fa75.png" title="Click login" width="960"/>
+                <img src="ccbd6713d964258daea3f5593a8bc060519a3afc73eef5b775b0df5118c87877.png" title="Set input fields: tudor, moldo, , garii, bacau, 600000, Cluj, Romania" width="960"/>
+                <img src="2da9d07a7f2c12949b3f69b43d6354b18ff7596ac53f7d81a37b1f7e5352f6c5.png" title="Set input fields: tudor, moldo, , garii, bacau, 600000, Cluj, Romania" width="960"/>
+                <img src="2da9d07a7f2c12949b3f69b43d6354b18ff7596ac53f7d81a37b1f7e5352f6c5.png" title="Click save" width="960"/>
+                <img src="scaled_06579dc5b31ca029316e14adc239fb92f18b83644bd85e11fd1448b496c775fb.png" title="Click save" width="960"/>
+                <img src="2b7b6e9be93af1d963fcc5e8563f45abf1e63e3a3d3f30a2ee57f675650d64c7.png" title="Error message displayed" width="960"/>
+                <img src="464d571e907230f8a23fbc46f23a496600305e53aa74c95715d04975b1adff05.png" title="Error message displayed" width="960"/>
+                <img src="751e06de0a3eb1113d59c58d776b52252e5e5ce2db98825ff4fb5d191dc0cec4.png" title="Change address: tudor, moldo, 0729809596, garii, bacau, 600, Cluj, , tudor.moldovanu@evozon.com, 1234567" width="960"/>
+                <img src="scaled_6be656a10788220738d5c69965146a17d7fdad72fe8e39fd09e3a5ac9fa8f146.png" title="Change address: tudor, moldo, 0729809596, garii, bacau, 600, Cluj, , tudor.moldovanu@evozon.com, 1234567" width="960"/>
+                <img src="751e06de0a3eb1113d59c58d776b52252e5e5ce2db98825ff4fb5d191dc0cec4.png" title="Open page" width="960"/>
+                <img src="930f0229b868a980e8df6e83c0b562caf315ef2e24b7ee1c7f4a0789cabae25b.png" title="Open page" width="960"/>
+                <img src="955753266e5bc1064d6658a03603306d50a94847b8d71e8635895fff9e3824f3.png" title="Set credentials: tudor.moldovanu@evozon.com, 1234567" width="960"/>
+                <img src="bf426ea3e8dfdd6836a272f02822498abd4a32427480fbb5a3a15976d117ebde.png" title="Set credentials: tudor.moldovanu@evozon.com, 1234567" width="960"/>
+                <img src="945f65bd612e20d44b1e973eea8a8cc3c16fa1343d6bcda217f26d06f2008a78.png" title="Click login" width="960"/>
+                <img src="735126f60ddcbb857fb49863160dabd3070c7d011e0f57f428263de64738fa75.png" title="Click login" width="960"/>
+                <img src="ccbd6713d964258daea3f5593a8bc060519a3afc73eef5b775b0df5118c87877.png" title="Set input fields: tudor, moldo, 0729809596, garii, bacau, 600, Cluj, " width="960"/>
+                <img src="scaled_0baff9aabd1d245d2f8cbbee29526f5e84c5605c7d14b379930c0c3f6f7e29f0.png" title="Set input fields: tudor, moldo, 0729809596, garii, bacau, 600, Cluj, " width="960"/>
+                <img src="0baff9aabd1d245d2f8cbbee29526f5e84c5605c7d14b379930c0c3f6f7e29f0.png" title="Click save" width="960"/>
+                <img src="scaled_be09e141f9ee77f26f24bcef3ffe6c0ffaefd5831e89f243e7bbd9ebefa4ca20.png" title="Click save" width="960"/>
+                <img src="scaled_fda0ad67c88b8117325acb862922dc94c92604b37074301325fa562806eb6cb1.png" title="Error message displayed" width="960"/>
+                <img src="scaled_0e8a31068ac212966e0557d17ab05614da9c52e1bea7fae4198b5391c7ec8795.png" title="Error message displayed: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.8.1</span>
+</div>
+</body>
+</html>
