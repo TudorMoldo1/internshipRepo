@@ -43,7 +43,7 @@ public class SearchTest extends BaseTest {
         searchSteps.login();
         searchSteps.searchTerm("dress");
         assert(searchSteps.sort());
-    }*/
+    }
 
     @Test
     @Title("Tets04-Search")
@@ -51,5 +51,7 @@ public class SearchTest extends BaseTest {
     {
         searchSteps.searchFromHomepage(searchTerm);
         searchSteps.verifyIfProductFound(productName);
-    }
+    }*/
+
+
 }
