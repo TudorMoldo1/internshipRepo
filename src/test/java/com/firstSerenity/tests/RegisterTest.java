@@ -22,14 +22,12 @@ public class RegisterTest extends BaseTest {
 
     @Test
     @Title("Test03_Register")
-    @UseTestDataFrom("src/test/java/com/firstSerenity/Test03_Register.csv")
     public void test03_Register()
     {
         registerSteps.register(firstName,lastName,email,password);
     }
     @Test
     @Title("Test06_Register")
-    @UseTestDataFrom("src/test/java/com/firstSerenity/Test06_Register.csv")
     public void test06_Register()
     {
         registerSteps.registerValid(firstName,lastName,email,password);
