@@ -77,12 +77,14 @@ public class EditAddressPage extends PageObject {
     public void setRegionDropdown(String region)
     {
         Select regionDropdown=new Select(getDriver().findElement(By.cssSelector("#region_id")));
+        regionDropdown.selectByVisibleText("Please select region, state or province");
         regionDropdown.selectByVisibleText(region);
     }
 
     public void setCountryDropdown(String country)
     {
         Select countryDropdown=new Select(getDriver().findElement(By.cssSelector("#country")));
+        countryDropdown.selectByVisibleText("");
         countryDropdown.selectByVisibleText(country);
     }
 

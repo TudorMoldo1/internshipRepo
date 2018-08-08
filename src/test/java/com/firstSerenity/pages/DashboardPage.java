@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 
 @DefaultUrl("http://qa1.dev.evozon.com/customer/account/")
 public class DashboardPage extends PageObject {
-    @FindBy(css = "div.box-account:nth-child(5) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(2)")
+    @FindBy(css = "a[href*=\"edit/id/105\"]")
     private WebElementFacade editBillingAddress;
 
 
