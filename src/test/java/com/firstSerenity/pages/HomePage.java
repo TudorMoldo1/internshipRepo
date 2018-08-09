@@ -29,7 +29,6 @@ public class HomePage extends PageObject {
     {
         List<WebElementFacade> subcategories=category.thenFindAll(By.cssSelector("li[class*=\"level1 nav-\"]"));
 
-       // System.out.println(subcategories);
         subcategories.get(0).waitUntilClickable();
         for(int i=0;i<subcategories.size();i++)
         {

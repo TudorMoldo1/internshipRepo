@@ -12,7 +12,7 @@ import java.util.List;
 @DefaultUrl("http://qa1.dev.evozon.com/wishlist/")
 public class WishlistPage extends PageObject {
     @FindBy(css="tr[id*=\"item\"]")
-    List<WebElementFacade> products;
+    private List<WebElementFacade> products;
 
 
     public boolean isProductPresent(String productName)

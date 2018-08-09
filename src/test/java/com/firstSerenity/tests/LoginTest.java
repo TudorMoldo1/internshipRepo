@@ -19,7 +19,7 @@ public class LoginTest extends BaseTest {
     private LoginSteps loginSteps;
     String user, password;
 
-   /* @Test
+    @Test
     public void testLoginWithValidCredentials()
     {
         loginSteps.openPage();
@@ -36,7 +36,6 @@ public class LoginTest extends BaseTest {
         loginSteps.clickLogin();
         loginSteps.checkInvalidLogin("http://qa1.dev.evozon.com/customer/account/");
     }
-*/
 
     @Test
     @Title("Test01 - Login")

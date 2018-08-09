@@ -48,9 +48,6 @@ public class SearchPage extends PageObject {
 
     public boolean searchPageDisplayed(String searchTerm)
     {
-       // if(getDriver().findElement(By.cssSelector(".note-msg")).isDisplayed())return false;
-        //return true;
-        //return title.getText().contains(searchTerm);
         try{
             if(getDriver().findElement(By.cssSelector(".note-msg")).isDisplayed())return false;
         }

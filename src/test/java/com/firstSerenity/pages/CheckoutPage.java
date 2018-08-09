@@ -43,7 +43,6 @@ public class CheckoutPage extends PageObject {
     {
         waitFor(continueButtonBilling);
         System.out.println(continueButtonBilling.getText());
-       //billingRadioButton.click();
         continueButtonBilling.click();
 
     }

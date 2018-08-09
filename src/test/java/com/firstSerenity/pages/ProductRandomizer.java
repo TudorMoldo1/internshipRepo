@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Random;
 
 @DefaultUrl("http://qa1.dev.evozon.com")
-public class productRandomizer extends PageObject {
+public class ProductRandomizer extends PageObject {
     @FindBy(css=".nav-primary")
     private WebElementFacade categoryList;
 

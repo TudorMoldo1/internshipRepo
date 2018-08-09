@@ -46,7 +46,7 @@ public class SearchTest extends BaseTest {
     }
 
     @Test
-    @Title("Tets04-Search")
+    @Title("Test04-Search")
     public void test04_Search()
     {
         searchSteps.searchFromHomepage(searchTerm);

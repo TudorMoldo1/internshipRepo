@@ -14,7 +14,6 @@ public class SaleTest extends BaseTest {
     @Test
     public void testCheckProductExists()
     {
-        //saleSteps.openPage();
         saleSteps.login("tudor.moldovanu@evozon.com","1234567");
         saleSteps.verifyProductExists("RACER BACK MAXI DRESS");
     }

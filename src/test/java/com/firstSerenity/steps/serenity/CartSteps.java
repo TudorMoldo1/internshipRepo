@@ -3,7 +3,7 @@ package com.firstSerenity.steps.serenity;
 import com.firstSerenity.pages.CartPage;
 import com.firstSerenity.pages.LoginPage;
 import com.firstSerenity.pages.SalePage;
-import com.firstSerenity.pages.productRandomizer;
+import com.firstSerenity.pages.ProductRandomizer;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.annotations.StepGroup;
@@ -19,7 +19,7 @@ public class CartSteps extends ScenarioSteps {
     private CartPage cartPage;
     private SalePage salePage;
     private LoginPage loginPage;
-    private productRandomizer productRandomizer;
+    private ProductRandomizer productRandomizer;
 
     @Steps
     private HomepageSteps homepageSteps;
