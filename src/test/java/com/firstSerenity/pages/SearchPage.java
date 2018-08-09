@@ -27,6 +27,12 @@ public class SearchPage extends PageObject {
     @FindBy(css=".page-title > h1")
     private WebElementFacade title;
 
+    @FindBy(css=".link-compare")
+    private WebElementFacade addToCompareButton;
+
+    @FindBy(css="button[title*=\"Compare\"]+a")
+    private WebElementFacade clearAllButton;
+
     public void openWithParameter(String searchTerm)
     {
         this.open("with_parameter",withParameters("?q="+searchTerm));
@@ -105,5 +111,17 @@ public class SearchPage extends PageObject {
     {
         WebElement product=getProduct(productName);
         return product!=null;
+    }
+
+    public void pressAddToCompare()
+    {
+        addToCompareButton.click();
+    }
+
+    public void cleanCompareList()
+    {
+        clearAllButton.click();
+        getDriver().switchTo().alert().accept();
+
     }
 }

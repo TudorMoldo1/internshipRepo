@@ -53,4 +53,13 @@ public class SearchSteps extends ScenarioSteps {
         homePage.open();
         homePage.searchForTerm(searchTerm);
     }
+
+    @Step
+    public void pressAddToCompare(){searchPage.pressAddToCompare();}
+
+    @Step
+    public void clearCompareList()
+    {
+        searchPage.cleanCompareList();
+    }
 }

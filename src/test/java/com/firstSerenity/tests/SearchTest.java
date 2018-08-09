@@ -21,7 +21,7 @@ public class SearchTest extends BaseTest {
     private HomepageSteps homepageSteps;
     private String searchTerm, productName;
 
-    /*@Test
+    @Test
     public void testSearch()
     {
         searchSteps.login();
@@ -29,7 +29,7 @@ public class SearchTest extends BaseTest {
         searchSteps.verifyIfDisplayed("dress".toUpperCase());
     }
 
-    @Test
+   /* @Test
     public void testInvalidSearch()
     {
         searchSteps.login();
@@ -51,7 +51,7 @@ public class SearchTest extends BaseTest {
     {
         searchSteps.searchFromHomepage(searchTerm);
         searchSteps.verifyIfProductFound(productName);
-    }*/
-
+    }
+*/
 
 }
