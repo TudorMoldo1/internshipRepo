@@ -132,6 +132,6 @@ public class SearchPage extends PageObject {
 
     public void clickAddToWishlistButton()
     {
-        addToWishlistButton.click();
+        if(addToWishlistButton.isPresent())addToWishlistButton.click();
     }
 }

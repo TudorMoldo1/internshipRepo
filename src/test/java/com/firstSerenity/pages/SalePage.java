@@ -31,7 +31,9 @@ public class SalePage extends PageObject {
     public void addToCart(String productName)
     {
         WebElementFacade product=getProduct(productName);
-        WebElement addToCartButton=product.findElement(By.cssSelector(".button.btn-cart"));
-        addToCartButton.click();
+        if(product!=null) {
+            WebElement addToCartButton = product.findElement(By.cssSelector(".button.btn-cart"));
+            addToCartButton.click();
+        }
     }
 }

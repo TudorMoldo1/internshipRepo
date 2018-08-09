@@ -27,7 +27,6 @@ public class CompareTest extends BaseTest {
     public void Test09_ComparePageAddToCart()
     {
         searchSteps.login();
-
         searchSteps.searchFromHomepage(productName1);
         searchSteps.clearCompareList();
         searchSteps.pressAddToCompare();

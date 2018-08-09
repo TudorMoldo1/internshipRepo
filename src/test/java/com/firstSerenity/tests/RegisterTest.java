@@ -24,7 +24,7 @@ public class RegisterTest extends BaseTest {
     @Title("Test03_Register")
     public void test03_RegisterWithInvalidInputData()
     {
-        registerSteps.register(firstName,lastName,email,password);
+        registerSteps.registerWithInvalidInputData(firstName,lastName,email,password);
     }
     @Test
     @Title("Test06_Register")

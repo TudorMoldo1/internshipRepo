@@ -30,7 +30,7 @@ public class RegisterSteps extends ScenarioSteps {
     public void checkIfAccountCreated(){assert(getDriver().getCurrentUrl().equals(Constants.BASE_URL));}
 
     @StepGroup
-    public void register(String firstName, String lastName, String email, String password)
+    public void registerWithInvalidInputData(String firstName, String lastName, String email, String password)
     {
         registerPage.open();
         setRegisterFields(firstName,lastName,email,password);

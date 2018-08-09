@@ -5,6 +5,7 @@ import com.firstSerenity.pages.LoginPage;
 import com.firstSerenity.pages.SalePage;
 import com.firstSerenity.pages.SearchPage;
 import net.thucydides.core.annotations.Step;
+import net.thucydides.core.annotations.StepGroup;
 import net.thucydides.core.annotations.Steps;
 import net.thucydides.core.steps.ScenarioSteps;
 
@@ -22,7 +23,7 @@ public class SearchSteps extends ScenarioSteps {
         loginPage.clickLogin();
     }
 
-    @Step
+    @StepGroup
     public boolean sort()
     {
         searchPage.sortByPrice();

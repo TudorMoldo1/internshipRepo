@@ -22,12 +22,10 @@ public class CartTest extends BaseTest {
     private HomepageSteps homepageSteps;
     private String categoryName, subcategoryName, productName;
 
-    /*@Test
+    @Test
     public void testAddToCart()
     {
         cartSteps.login();
-        //test comment hello git raise your hand woop woop
-
         cartSteps.addToCart("Park Row Throw".toUpperCase());
         cartSteps.checkIfPresent("Park Row Throw".toUpperCase());
     }
@@ -52,7 +50,7 @@ public class CartTest extends BaseTest {
         cartSteps.addProductWithParameters(categoryName,subcategoryName,productName);
         cartSteps.checkIfPresent(productName);
     }
-*/
+
     @Test
     public void testSubtotalsEqualsTotal()
     {

@@ -71,6 +71,7 @@ import java.util.List;
 
     public boolean correctTotalPrice()
     {
+        if(checkEmptyCartSuccessful()==true)return true;
         double subtotals=sumOfSubtotals();
         String s=total.getText();
         s=s.replace(",","");
