@@ -33,6 +33,9 @@ public class SearchPage extends PageObject {
     @FindBy(css="button[title*=\"Compare\"]+a")
     private WebElementFacade clearAllButton;
 
+    @FindBy(css = "ul>li>div>div>ul>li>a[class*=\"link-wishlist\"]")
+    private WebElementFacade addToWishlistButton;
+
     public void openWithParameter(String searchTerm)
     {
         this.open("with_parameter",withParameters("?q="+searchTerm));
@@ -125,5 +128,10 @@ public class SearchPage extends PageObject {
             getDriver().switchTo().alert().accept();
         }
 
+    }
+
+    public void clickAddToWishlistButton()
+    {
+        addToWishlistButton.click();
     }
 }

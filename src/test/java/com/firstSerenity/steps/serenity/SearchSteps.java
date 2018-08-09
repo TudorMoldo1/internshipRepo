@@ -62,4 +62,7 @@ public class SearchSteps extends ScenarioSteps {
     {
         searchPage.cleanCompareList();
     }
+
+    @Step
+    public void clickAddToWishlistButton(){searchPage.clickAddToWishlistButton();}
 }
