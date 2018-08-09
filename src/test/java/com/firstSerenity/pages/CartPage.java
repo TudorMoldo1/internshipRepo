@@ -14,6 +14,12 @@ import java.util.List;
     @FindBy(css=".product-cart-info")
     private List<WebElementFacade> products;
 
+    @FindBy(css="td[class*=\"product-cart-total\"]")
+    private List<WebElementFacade> subtotals;
+
+    @FindBy(css="td[class*=\"a-right\"]>strong>span")
+    private WebElementFacade total;
+
     public WebElementFacade getProduct(String productName)
     {
         for(int i=0;i<products.size();i++)
@@ -46,6 +52,32 @@ import java.util.List;
         String[] s=product.getText().split("\n");
         String productTitle=s[0];
         return grid.getText().contains(productTitle);
+    }
+
+    public double sumOfSubtotals()
+    {
+        double sum=0;
+        for(int i=0;i<subtotals.size();i++)
+        {
+            String s=subtotals.get(i).getText();
+            s=s.replace(",","");
+            s=s.replace("$","");
+            s=s.replace(" ","");
+            double price=Double.valueOf(s);
+            sum=sum+price;
+        }
+        return sum;
+    }
+
+    public boolean correctTotalPrice()
+    {
+        double subtotals=sumOfSubtotals();
+        String s=total.getText();
+        s=s.replace(",","");
+        s=s.replace("$","");
+        s=s.replace(" ","");
+        double price=Double.valueOf(s);
+        return subtotals==price;
     }
 
 }

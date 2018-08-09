@@ -25,6 +25,9 @@ public class CartSteps extends ScenarioSteps {
     private HomepageSteps homepageSteps;
 
     @Step
+    public void openPage(){cartPage.open();}
+
+    @Step
     public void login()
     {
         loginPage.open();
@@ -102,6 +105,12 @@ public class CartSteps extends ScenarioSteps {
     {
         cartPage.emptyCart();
         assert(cartPage.checkEmptyCartSuccessful());
+    }
+
+    @Step
+    public void checkSubtotalsEqualsTotal()
+    {
+        assert(cartPage.correctTotalPrice());
     }
 
     @StepGroup

@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05844e98-0055-44be-a95c-a263ecff1c00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/firstSerenity/Test09_ComparePage.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/firstSerenity/pages/ComparePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/firstSerenity/steps/serenity/CompareSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/firstSerenity/tests/CompareTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/firstSerenity/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/firstSerenity/pages/CartPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/firstSerenity/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/firstSerenity/pages/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/firstSerenity/steps/serenity/SearchSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/firstSerenity/steps/serenity/SearchSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/firstSerenity/tests/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/firstSerenity/tests/SearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/firstSerenity/steps/serenity/CartSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/firstSerenity/steps/serenity/CartSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/firstSerenity/tests/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/firstSerenity/tests/CartTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,98 +35,60 @@
           <entry key="Test08_Address" value="1" />
           <entry key="class" value="4" />
           <entry key="csv" value="9" />
-          <entry key="java" value="70" />
+          <entry key="java" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="70" />
+          <entry key="JAVA" value="73" />
           <entry key="PLAIN_TEXT" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="csv" value="117" />
-          <entry key="java" value="3934" />
-          <entry key="txt" value="22" />
+          <entry key="java" value="4498" />
+          <entry key="txt" value="75" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3934" />
-          <entry key="PLAIN_TEXT" value="139" />
+          <entry key="JAVA" value="4498" />
+          <entry key="PLAIN_TEXT" value="192" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/firstSerenity/steps/serenity/CompareSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#749#750#0" expanded="true" />
-                <element signature="e#775#776#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/firstSerenity/pages/ComparePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1172#1173#0" expanded="true" />
-                <element signature="e#1215#1216#0" expanded="true" />
-                <element signature="e#1249#1250#0" expanded="true" />
-                <element signature="e#1293#1294#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/firstSerenity/tests/CompareTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/firstSerenity/tests/SearchTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/firstSerenity/Test09_ComparePage.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/firstSerenity/pages/SearchPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/firstSerenity/pages/CartPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1751">
-              <caret line="120" column="32" lean-forward="true" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="32" />
+            <state relative-caret-position="196">
+              <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/firstSerenity/steps/serenity/CartSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+              <folding>
+                <element signature="e#3302#3303#0" expanded="true" />
+                <element signature="e#3324#3325#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/firstSerenity/tests/CartTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -173,24 +132,25 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/com/firstSerenity/steps/serenity/HomepageSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/firstSerenity/steps/serenity/CartSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/firstSerenity/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/firstSerenity/Test07_Cart.csv" />
         <option value="$PROJECT_DIR$/src/test/java/com/firstSerenity/steps/serenity/EditAddressSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/firstSerenity/pages/DashboardPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/firstSerenity/Test08_Address.csv" />
         <option value="$PROJECT_DIR$/src/test/java/com/firstSerenity/pages/EditAddressPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/firstSerenity/tests/CartTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/firstSerenity/tests/EditAddressTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/firstSerenity/tests/RegisterTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/firstSerenity/tests/SaleTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/firstSerenity/tests/SearchTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/firstSerenity/Test09_ComparePage.csv" />
-        <option value="$PROJECT_DIR$/src/test/java/com/firstSerenity/pages/SearchPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/firstSerenity/steps/serenity/SearchSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/firstSerenity/tests/CompareTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/firstSerenity/steps/serenity/CompareSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/firstSerenity/pages/ComparePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/firstSerenity/pages/SearchPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/firstSerenity/steps/serenity/CartSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/firstSerenity/tests/CartTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/firstSerenity/pages/CartPage.java" />
       </list>
     </option>
   </component>
@@ -298,7 +258,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CompareTest">
+  <component name="RunManager" selected="JUnit.CartTest">
+    <configuration name="CartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="firstSerenity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.firstSerenity.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.firstSerenity.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.firstSerenity.tests.CartTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartTest.testSubtotalsEqualsTotal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="firstSerenity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.firstSerenity.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.firstSerenity.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.firstSerenity.tests.CartTest" />
+      <option name="METHOD_NAME" value="testSubtotalsEqualsTotal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CompareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="firstSerenity" />
       <extension name="coverage">
@@ -329,20 +319,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EditAddressTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="firstSerenity" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.firstSerenity.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.firstSerenity.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.firstSerenity.tests.EditAddressTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="firstSerenity" />
       <extension name="coverage">
@@ -357,36 +333,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTest.testSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="firstSerenity" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.firstSerenity.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.firstSerenity.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.firstSerenity.tests.SearchTest" />
-      <option name="METHOD_NAME" value="testSearch" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.EditAddressTest" />
       <item itemvalue="JUnit.CompareTest" />
       <item itemvalue="JUnit.SearchTest" />
-      <item itemvalue="JUnit.SearchTest.testSearch" />
       <item itemvalue="JUnit.CompareTest.Test09_ComparePageAddToCart" />
+      <item itemvalue="JUnit.CartTest.testSubtotalsEqualsTotal" />
+      <item itemvalue="JUnit.CartTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CartTest" />
+        <item itemvalue="JUnit.CartTest.testSubtotalsEqualsTotal" />
         <item itemvalue="JUnit.CompareTest" />
         <item itemvalue="JUnit.CompareTest.Test09_ComparePageAddToCart" />
         <item itemvalue="JUnit.SearchTest" />
-        <item itemvalue="JUnit.SearchTest.testSearch" />
-        <item itemvalue="JUnit.EditAddressTest" />
       </list>
     </recent_temporary>
   </component>
@@ -394,35 +354,35 @@
     <configuration />
   </component>
   <component name="TestHistory">
-    <history-entry file="CompareTest - 2018.08.09 at 10h 22m 09s.xml">
+    <history-entry file="CompareTest - 2018.08.09 at 11h 00m 43s.xml">
       <configuration name="CompareTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CompareTest - 2018.08.09 at 10h 22m 46s.xml">
-      <configuration name="CompareTest" configurationId="JUnit" />
+    <history-entry file="CartTest_testSubtotalsEqualsTotal - 2018.08.09 at 11h 26m 09s.xml">
+      <configuration name="CartTest.testSubtotalsEqualsTotal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CompareTest - 2018.08.09 at 10h 23m 50s.xml">
-      <configuration name="CompareTest" configurationId="JUnit" />
+    <history-entry file="CartTest - 2018.08.09 at 11h 26m 47s.xml">
+      <configuration name="CartTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CompareTest - 2018.08.09 at 10h 24m 28s.xml">
-      <configuration name="CompareTest" configurationId="JUnit" />
+    <history-entry file="CartTest - 2018.08.09 at 11h 27m 50s.xml">
+      <configuration name="CartTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CompareTest - 2018.08.09 at 10h 25m 50s.xml">
-      <configuration name="CompareTest" configurationId="JUnit" />
+    <history-entry file="CartTest - 2018.08.09 at 11h 29m 07s.xml">
+      <configuration name="CartTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CompareTest - 2018.08.09 at 10h 27m 30s.xml">
-      <configuration name="CompareTest" configurationId="JUnit" />
+    <history-entry file="CartTest - 2018.08.09 at 11h 29m 30s.xml">
+      <configuration name="CartTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CompareTest - 2018.08.09 at 10h 28m 12s.xml">
-      <configuration name="CompareTest" configurationId="JUnit" />
+    <history-entry file="CartTest - 2018.08.09 at 11h 30m 29s.xml">
+      <configuration name="CartTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CompareTest - 2018.08.09 at 10h 30m 17s.xml">
-      <configuration name="CompareTest" configurationId="JUnit" />
+    <history-entry file="CartTest - 2018.08.09 at 11h 30m 48s.xml">
+      <configuration name="CartTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CompareTest - 2018.08.09 at 10h 31m 26s.xml">
-      <configuration name="CompareTest" configurationId="JUnit" />
+    <history-entry file="CartTest - 2018.08.09 at 11h 31m 24s.xml">
+      <configuration name="CartTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CompareTest - 2018.08.09 at 10h 32m 12s.xml">
-      <configuration name="CompareTest" configurationId="JUnit" />
+    <history-entry file="CartTest - 2018.08.09 at 11h 31m 45s.xml">
+      <configuration name="CartTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -435,7 +395,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22101842" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38244852" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35536295" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -456,7 +416,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit de test" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit de test" />
+    <MESSAGE value="added a test for the compare feature" />
+    <MESSAGE value="added a test for the compare feature(found a bug btw)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a test for the compare feature(found a bug btw)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -490,6 +452,12 @@
           <line>42</line>
           <properties />
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/firstSerenity/pages/CartPage.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -535,13 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/firstSerenity/tests/CartTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -735,24 +696,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/firstSerenity/pages/CartPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/firstSerenity/utils/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/firstSerenity/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -795,13 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/firstSerenity/steps/serenity/CartSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/firstSerenity/tests/CompareTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -826,7 +766,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/firstSerenity/pages/ComparePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="-156">
           <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -840,8 +780,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/firstSerenity/pages/SearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="120" column="32" lean-forward="true" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="32" />
+        <state relative-caret-position="481">
+          <caret line="122" column="37" selection-start-line="122" selection-start-column="37" selection-end-line="122" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/firstSerenity/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/firstSerenity/steps/serenity/CartSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <folding>
+            <element signature="e#3302#3303#0" expanded="true" />
+            <element signature="e#3324#3325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/firstSerenity/tests/CartTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/firstSerenity/pages/CartPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
         </state>
       </provider>
     </entry>

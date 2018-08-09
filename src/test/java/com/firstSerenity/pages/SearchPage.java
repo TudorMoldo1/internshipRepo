@@ -120,7 +120,7 @@ public class SearchPage extends PageObject {
 
     public void cleanCompareList()
     {
-        if(clearAllButton.isDisplayed()) {
+        if(clearAllButton.isPresent()) {
             clearAllButton.click();
             getDriver().switchTo().alert().accept();
         }
